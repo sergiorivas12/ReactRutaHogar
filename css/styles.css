@@ -1,0 +1,120 @@
+body {
+    font-family:  'Comic Neue', cursive;
+    background-image: url(../img/bgnew_compress.jpg);
+}
+
+nav{
+    background-color: #753593 !important;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #fea94c;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/header_fondo_violeta-1.jpg);
+}
+
+main{
+    display: flex;
+}
+
+main h2{
+    text-align: center;
+    background-color: white;
+}
+
+footer {
+    background-color: #5e0f82 !important;
+    color: white;
+    clear: both;
+    padding: 5px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.holder{
+    max-width: 960px;
+    margin:0 auto;
+}
+
+.cajas{
+    max-height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cajas p{
+    font-size: 15px;
+    color: #8b93a1;
+}
+
+.productos {
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.producto:hover{
+    border: 3px solid;
+    border-color: #753593;
+}
+
+.producto p{
+    font-size: 15px;
+    color: #4c5462;
+}
+
+.precio {
+    font-size: 25px!important;
+    color: #4c5462!important;
+    font-weight: bold;
+}
+
+.sociales {
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+.sociales h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1em;
+    color: #3c424d;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+    flex-direction: column;
+}
