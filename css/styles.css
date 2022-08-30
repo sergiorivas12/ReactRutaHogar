@@ -32,6 +32,8 @@ header {
 
 main{
     display: flex;
+    padding: 10px;
+    background-color: white;
 }
 
 main h2{
@@ -48,9 +50,14 @@ footer {
     text-align: center;
 }
 
+.activo{
+    color: #fea94c;
+}
+
 .holder{
-    max-width: 960px;
+    max-width: 80%;
     margin:0 auto;
+
 }
 
 .cajas{
@@ -117,4 +124,73 @@ footer {
     list-style: none;
     align-items: flex-start;
     flex-direction: column;
+}
+
+#contactoBread {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../img/contacto_bread.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+.breadcrumbRutaHogar{
+
+}
+
+.breadcrumbRutaHogar ol li{
+    color: white!important;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.breadcrumbRutaHogar ol li a {
+    text-decoration: none;
+    text-transform: none;
+    color:white;
+}
+
+.breadcrumbRutaHogar ol li a:hover{
+    color:#753593;
+}
+
+.card:hover{
+    border: 1px solid;
+    border-color: #753593;
+}
+
+.imgMapa:hover{
+    border: 1px solid;
+    border-color: #753593;
+}
+
+.contactoRuta{
+    display: flex;
+}
+
+.contactoRuta ol{
+    padding-left: 1px !important;
+}
+
+.contactoRuta ol li{
+    list-style: none;
+}
+
+.contactoRuta ol li *{
+    color: #4c5462;
+    margin-right: 10px;
+}
+
+.contactoRuta ol li label{
+    font-family: Karla;
+}
+
+.mensajeContacto{
+    background-color: #f7be68;
+    color: white;
+}
+
+.mensajeContacto p{
+    font-size: 18px;
 }

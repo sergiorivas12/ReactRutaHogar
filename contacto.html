@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Proyecto</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- STYLES GOOGLE-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Edu+SA+Beginner&family=Karla&display=swap" rel="stylesheet">
+        <!-- FONT AWESOME-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <div class="holder">
+                <img src="img/logo2_small_tr_sm.png" alt="Ruta Hogar"/>
+            </div>
+        </header>
+        <nav>
+            <div class="holder">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Nuevos</a></li>
+                    <li><a class="activo" href="#">Ubicacion y Contacto</a></li>
+                    <li><a href="#">¿Quienes Somos?</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="holder">
+            <div id="contactoBread" class="breadcrumbRutaHogar" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                </ol>
+            </div>
+            <div style="height: 10px"></div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text"><i class="fas fa-address-card"></i> Contacto</p>
+                </div>
+            </div>
+            <div style="height: 10px"></div>
+            <img class="imgMapa" src="img/mapa.PNG" width="100%" alt="alt"/>
+            <div style="height: 25px"></div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contactoRuta">
+                        <ol>
+                            <li><i class="fas fa-map-marker"></i> <label>San Martin 500</label></li>
+                            <li><i class="fas fa-envelope"></i> <label><a href="mailto:rutahogar@gmail.com">Email: rutahogar@gmail.com</a></label></li>
+                            <li><i class="fas fa-mobile"></i> <label>(3447) 54-2433</label></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="nombre">Nombre (*)</label>
+                                    <input class="form-control" id="nombre" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email (*)</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Ingrese Email">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="asunto">Asunto</label>
+                                    <input class="form-control" id="asunto" placeholder="Asunto">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="asunto">Mensaje</label>
+                                    <textarea style="height: 260px;" class="form-control" id="mensaje" placeholder="mensaje"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 10px"></div>
+                        <div class="row">
+                            <div class="col-md-12">
+                            <button type="submit" class="btn btn-secondary">Enviar Email</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div style="height: 10px"></div>
+            <div class="card mensajeContacto">
+                <div class="card-body">
+                    <p class="card-text"><i class="fas fa-question-circle"></i> Consultas por compra online: (3447) 54-2433 || contacto@rutahogar.com</p>
+                </div>
+            </div>            
+        </main>
+        <footer>
+            <p>Diseñado por Sergio Rivas - &copy;2022</p>
+        </footer>
+    </body>
+</html>
