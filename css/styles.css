@@ -209,6 +209,15 @@ footer {
     background: #6FD9EC;
 }
 
+.nuevosContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.nuevos{
+    width: 80%;
+}
+
 .nuevos h2{
     padding-left: 5px;
     text-align: left;
@@ -222,6 +231,7 @@ footer {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .productoNuevo{
@@ -244,4 +254,17 @@ footer {
 
 .productoNuevo img{
     max-width: 100%;
+}
+
+.nuevosFaq{
+    width: 20%;
+}
+
+.nuevosFaq h2{
+    text-align: left;
+    font-size: 25px;
+}
+
+.nuevosFaq p{
+    overflow-wrap: break-word;
 }
